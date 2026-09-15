@@ -1,0 +1,15 @@
+export default function manifest() {
+  return {
+    name: "Phoky",
+    short_name: "Phoky",
+    description: "L'atelier derrière Mai Coach, Collectra et Lisko.",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#ffffff",
+    theme_color: "#000000",
+    icons: [
+      { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+  };
+}
